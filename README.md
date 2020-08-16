@@ -219,8 +219,8 @@ $('.ui.toggle.button').on('click', function(e) {
 
 ## Demo
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="images/poster.png">
-    <source src="images/demo.mp4" type="video/mp4">
-  </video>
-</figure>
+![DEMO](images/demo.mp4)
+
+<video width="320" height="240" controls>
+  <source src="images/demo.mp4" type="video/mp4">
+</video>
