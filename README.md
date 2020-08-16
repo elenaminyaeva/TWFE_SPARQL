@@ -219,5 +219,5 @@ $('.ui.toggle.button').on('click', function(e) {
 
 ## Demo
 ![DEMO](/images/poster.png)
-![DEMO](/images/demo.mp4)
+[Click to dowload demo video](/images/demo.mp4)
 
