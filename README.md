@@ -218,6 +218,6 @@ $('.ui.toggle.button').on('click', function(e) {
 *else ..* - hide image if other item selected
 
 ## Demo
-
+![DEMO](/images/poster.png)
 ![DEMO](/images/demo.mp4)
 
