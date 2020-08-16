@@ -182,9 +182,9 @@ $('.dropdown.zoneSelector').dropdown('setting', 'onChange', function(val) {
         })
 ```
 
-*$.getJSON(`/query/0/${val}`, function(data)* - server request for searching by region
-*$('.menu.capitalSelector').html('')* - clean dropdown list if filled out
-*$('.menu.capitalSelector').append* - construct add html item for each capital value
+*$.getJSON(`/query/0/${val}`, function(data)* - server request for searching by region </br>
+*$('.menu.capitalSelector').html('')* - clean dropdown list if filled out </br>
+*$('.menu.capitalSelector').append* - construct add html item for each capital value </br>
 
 + Add button for flag display 
 
@@ -212,12 +212,12 @@ $('.ui.toggle.button').on('click', function(e) {
             }
 ```
 
-*$('.dropdown.capitalSelector').dropdown('get value'))* - check if a capital value is selected
-*$.getJSON(`/query/3/${$('.dropdown.capitalSelector').dropdown('get value')}`* - get JSON result for query with id=3 + cityCode selected from dropdown list
-*$('.emblem').attr('src', data[0].flag).fadeIn(1000)* - display image with animation while loading
+*$('.dropdown.capitalSelector').dropdown('get value'))* - check if a capital value is selected </br>
+*$.getJSON(`/query/3/${$('.dropdown.capitalSelector').dropdown('get value')}`* - get JSON result for query with id=3 + cityCode selected from dropdown list </br>
+*$('.emblem').attr('src', data[0].flag).fadeIn(1000)* - display image with animation while loading </br>
 *else ..* - hide image if other item selected
 
 ## Demo
 
-![DEMO](images/demo.mp4)
+![DEMO](/images/demo.mp4)
 
