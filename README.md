@@ -221,6 +221,3 @@ $('.ui.toggle.button').on('click', function(e) {
 
 ![DEMO](images/demo.mp4)
 
-<video width="320" height="240" controls>
-  <source src="images/demo.mp4" type="video/mp4">
-</video>
